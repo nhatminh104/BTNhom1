@@ -13,11 +13,11 @@ public class Bai5 {
         int c=sc.nextInt();
         if((a+b)>c && (a+c)>b && (b+c)>a) {
             if(a==b || a==c||b==c) {
-                System.out.println("La tam giac can!");
+                System.out.println("La tam giac deu!");
             }
             else
             if(a==b && b==c){
-                System.out.println("Tam giac da cho la tam giac deu!");
+                System.out.println("Tam giac da cho la tam giac can!");
             }
             else
             if(((a*a+b*b)==c*c)||((a*a|c*c)==b*b)||((b*b+c*c==a*a))){
